@@ -10,7 +10,7 @@ npm install
 npm run demo        # generates demo/data.js and compiles src/app.ts to demo/app.js
 ```
 
-Then open `demo/index.html` in a browser. `npm run typecheck` checks both the app and the generator.
+Then open `demo/index.html` in a browser. `npm run typecheck` checks the app, the generator and the tests; `npm test` runs the calculation tests.
 `node scripts/generate.ts <seed>` regenerates the data with a different seed. Every record is synthetic.
 
 ## Run in Docker

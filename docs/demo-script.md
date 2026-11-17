@@ -117,6 +117,5 @@ It's deployed inside the hospital network under Taiwan's Personal Data Protectio
 
 ## Check before the pitch
 
-- TW Core profile URLs in the sample bundle (`Procedure-twcore`, `Observation-laboratoryResult-twcore`) against the official IG site.
-- SNOMED 116859006 and the LOINC codes.
-- FHIR Box rollout dates quoted in the deck.
+- Verified 18 Nov 2026: the TW Core profile canonical URLs (`Procedure-twcore`, `Observation-laboratoryResult-twcore`, IG v1.0.0), and the SNOMED and LOINC codes on the Data sources screen (116859006, 718-7, 6301-6, 34714-6, 29463-7, all active on tx.fhir.org).
+- Still to check: the FHIR Box rollout dates quoted in the deck.
