@@ -12,3 +12,11 @@ npm run demo        # generates demo/data.js and compiles src/app.ts to demo/app
 
 Then open `demo/index.html` in a browser. `npm run typecheck` checks both the app and the generator.
 `node scripts/generate.ts <seed>` regenerates the data with a different seed. Every record is synthetic.
+
+## Run in Docker
+
+```bash
+docker compose up -d --build
+```
+
+Open http://localhost:8765. The image builds the data and compiles the TypeScript once, then serves the static files from a non-root nginx. Stop it with `docker compose down`. Build with a different data seed using `docker compose build --build-arg SEED=42`.
