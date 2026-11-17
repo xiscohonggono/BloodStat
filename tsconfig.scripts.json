@@ -9,5 +9,5 @@
     "erasableSyntaxOnly": true,
     "types": ["node"]
   },
-  "include": ["scripts", "src/types.d.ts"]
+  "include": ["scripts", "src/types.d.ts", "tests"]
 }
