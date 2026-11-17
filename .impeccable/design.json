@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T19:47:56+00:00",
+  "title": "Design System: BloodStat",
+  "extensions": {
+    "colorMeta": {
+      "label-ink": {
+        "role": "neutral",
+        "displayName": "Label Ink",
+        "canonical": "#121417",
+        "tonalRamp": [
+          "oklch(15% 0.007 258)",
+          "oklch(26% 0.007 258)",
+          "oklch(38% 0.007 258)",
+          "oklch(49% 0.007 258)",
+          "oklch(61% 0.007 258)",
+          "oklch(72% 0.007 258)",
+          "oklch(84% 0.007 258)",
+          "oklch(95% 0.007 258)"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "#3c434d",
+        "tonalRamp": [
+          "oklch(15% 0.006 257)",
+          "oklch(26% 0.010 257)",
+          "oklch(38% 0.013 257)",
+          "oklch(49% 0.017 257)",
+          "oklch(61% 0.019 257)",
+          "oklch(72% 0.016 257)",
+          "oklch(84% 0.013 257)",
+          "oklch(95% 0.010 257)"
+        ]
+      },
+      "label-stock": {
+        "role": "neutral",
+        "displayName": "Label Stock",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "bench-grey": {
+        "role": "neutral",
+        "displayName": "Bench Grey",
+        "canonical": "#e9ecef",
+        "tonalRamp": [
+          "oklch(15% 0.005 248)",
+          "oklch(26% 0.005 248)",
+          "oklch(38% 0.005 248)",
+          "oklch(49% 0.005 248)",
+          "oklch(61% 0.005 248)",
+          "oklch(72% 0.005 248)",
+          "oklch(84% 0.005 248)",
+          "oklch(95% 0.005 248)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#c9ced5",
+        "tonalRamp": [
+          "oklch(15% 0.004 257)",
+          "oklch(26% 0.006 257)",
+          "oklch(38% 0.008 257)",
+          "oklch(49% 0.010 257)",
+          "oklch(61% 0.011 257)",
+          "oklch(72% 0.009 257)",
+          "oklch(84% 0.007 257)",
+          "oklch(95% 0.006 257)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "canonical": "#f3f4f6",
+        "tonalRamp": [
+          "oklch(15% 0.003 265)",
+          "oklch(26% 0.003 265)",
+          "oklch(38% 0.003 265)",
+          "oklch(49% 0.003 265)",
+          "oklch(61% 0.003 265)",
+          "oklch(72% 0.003 265)",
+          "oklch(84% 0.003 265)",
+          "oklch(95% 0.003 265)"
+        ]
+      },
+      "rail-muted": {
+        "role": "neutral",
+        "displayName": "Rail Muted",
+        "canonical": "#a9b0ba",
+        "tonalRamp": [
+          "oklch(15% 0.005 257)",
+          "oklch(26% 0.008 257)",
+          "oklch(38% 0.011 257)",
+          "oklch(49% 0.014 257)",
+          "oklch(61% 0.016 257)",
+          "oklch(72% 0.014 257)",
+          "oklch(84% 0.011 257)",
+          "oklch(95% 0.008 257)"
+        ]
+      },
+      "red-cell-band": {
+        "role": "primary",
+        "displayName": "Red-Cell Band",
+        "canonical": "#9f1820",
+        "tonalRamp": [
+          "oklch(15% 0.056 25)",
+          "oklch(26% 0.087 25)",
+          "oklch(38% 0.117 25)",
+          "oklch(49% 0.144 25)",
+          "oklch(61% 0.167 25)",
+          "oklch(72% 0.141 25)",
+          "oklch(84% 0.113 25)",
+          "oklch(95% 0.084 25)"
+        ]
+      },
+      "plasma-straw": {
+        "role": "secondary",
+        "displayName": "Plasma Straw",
+        "canonical": "#e0ac1f",
+        "tonalRamp": [
+          "oklch(15% 0.050 86)",
+          "oklch(26% 0.079 86)",
+          "oklch(38% 0.105 86)",
+          "oklch(49% 0.129 86)",
+          "oklch(61% 0.150 86)",
+          "oklch(72% 0.126 86)",
+          "oklch(84% 0.102 86)",
+          "oklch(95% 0.075 86)"
+        ]
+      },
+      "focus-blue": {
+        "role": "tertiary",
+        "displayName": "Focus Blue",
+        "canonical": "#1f4fd1",
+        "tonalRamp": [
+          "oklch(15% 0.068 264)",
+          "oklch(26% 0.107 264)",
+          "oklch(38% 0.143 264)",
+          "oklch(49% 0.177 264)",
+          "oklch(61% 0.205 264)",
+          "oklch(72% 0.173 264)",
+          "oklch(84% 0.139 264)",
+          "oklch(95% 0.103 264)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "measure": {
+        "displayName": "Measure",
+        "purpose": "Headline number in each measure quadrant."
+      },
+      "blood-group": {
+        "displayName": "Blood Group",
+        "purpose": "ABO/Rh glyph on label tiles; heaviest lettering on the label."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Screen titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section and band headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, tabular figures."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase captions, column headers, tags, bands."
+      },
+      "data-mono": {
+        "displayName": "Data Mono",
+        "purpose": "Lab values and identifiers only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rule-thicken",
+        "value": "inset 0 0 0 2px #121417",
+        "purpose": "Label tile hover: the frame gets heavier instead of lifting."
+      },
+      {
+        "name": "pinned-edge",
+        "value": "1px 0 0 #c9ced5",
+        "purpose": "Edge of a sticky table column."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "150ms ease-out",
+        "purpose": "Colour and rule-weight state changes."
+      },
+      {
+        "name": "stamp-in",
+        "value": "220ms cubic-bezier(0.2, 0.9, 0.3, 1)",
+        "purpose": "Review stamp lands (scale 1.35 to 1, fade in); disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack-detail",
+        "value": "1100px"
+      },
+      {
+        "name": "compact",
+        "value": "760px"
+      },
+      {
+        "name": "chart-thin-labels",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one decisive action in a region.",
+      "html": "<button class=\"ds-btn-primary\">Approve and publish</button>",
+      "css": ".ds-btn-primary { font: 600 0.875rem/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; padding: 8px 14px; border: 2px solid #121417; border-radius: 0; background: #121417; color: #fff; cursor: pointer; transition: background-color 150ms ease-out; } .ds-btn-primary:hover { background: #2b3038; } .ds-btn-primary:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Every other action; outline in ink.",
+      "html": "<button class=\"ds-btn\">Not justified</button>",
+      "css": ".ds-btn { font: 600 0.875rem/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; padding: 8px 14px; border: 2px solid #121417; border-radius: 0; background: #fff; color: #121417; cursor: pointer; transition: background-color 150ms ease-out; } .ds-btn:hover { background: #e9ecef; } .ds-btn:active { background: #c9ced5; } .ds-btn:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "Filters and measure switchers; pressed segment is ink-filled.",
+      "html": "<div class=\"ds-segs\"><button class=\"ds-seg\" aria-pressed=\"true\">Red cells</button><button class=\"ds-seg\" aria-pressed=\"false\">Plasma</button></div>",
+      "css": ".ds-segs { display: inline-flex; border: 2px solid #121417; } .ds-seg { font: 600 0.8125rem/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; padding: 6px 12px; border: 0; background: #fff; color: #121417; cursor: pointer; } .ds-seg + .ds-seg { box-shadow: inset 2px 0 0 #121417; padding-left: 14px; } .ds-seg:hover { background: #e9ecef; } .ds-seg[aria-pressed=\"true\"] { background: #121417; color: #fff; } .ds-seg:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Status Tags",
+      "kind": "chip",
+      "refersTo": "tag-inverse",
+      "description": "Ink-inverse for held/blocking, outline for warning/approved.",
+      "html": "<span class=\"ds-tag ds-tag-inv\">Held</span> <span class=\"ds-tag ds-tag-line\">Approved</span>",
+      "css": ".ds-tag { display: inline-block; padding: 1px 8px; font: 700 0.75rem/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; text-transform: uppercase; letter-spacing: 0.04em; } .ds-tag-inv { background: #121417; color: #fff; } .ds-tag-line { border: 1px solid #121417; color: #121417; }"
+    },
+    {
+      "name": "Select",
+      "kind": "input",
+      "refersTo": "",
+      "description": "Department filter; square ink frame.",
+      "html": "<select class=\"ds-select\"><option>All departments</option></select>",
+      "css": ".ds-select { font: 0.875rem \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; padding: 6px 10px; border: 2px solid #121417; border-radius: 0; background: #fff; color: #121417; } .ds-select:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item-current",
+      "description": "Ink rail; current item is a white block, counts on straw badges.",
+      "html": "<nav class=\"ds-rail\"><a class=\"ds-nav\" href=\"#\">Data load <span class=\"ds-badge\">2</span></a><a class=\"ds-nav\" aria-current=\"page\" href=\"#\">Overview</a><a class=\"ds-nav\" href=\"#\">Review queue <span class=\"ds-badge\">134</span></a></nav>",
+      "css": ".ds-rail { display: grid; gap: 2px; width: 232px; padding: 16px; background: #121417; } .ds-nav { display: flex; justify-content: space-between; padding: 10px 8px; border-top: 1px solid #2b3038; color: #f3f4f6; font: 600 15px/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; text-decoration: none; } .ds-nav:hover { background: #1f242b; } .ds-nav[aria-current=\"page\"] { background: #fff; color: #121417; } .ds-nav:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; } .ds-badge { min-width: 24px; padding: 0 6px; background: #e0ac1f; color: #121417; font-size: 0.75rem; font-weight: 700; text-align: center; }"
+    },
+    {
+      "name": "Label Tile",
+      "kind": "custom",
+      "refersTo": "band-red-cells",
+      "description": "Signature component: one transfusion as a component label with quadrants, barcode and review stamp.",
+      "html": "<button class=\"ds-tile\"><span class=\"ds-band\">Red cells</span><span class=\"ds-q ds-tl\"><span class=\"ds-ql\">Units</span><b>2 U · 293 mL</b></span><span class=\"ds-q ds-abo\">A+</span><span class=\"ds-q ds-bl\"><span class=\"ds-ql\">Hb</span><b class=\"ds-mono\">8.1</b><span class=\"ds-qr\">≥ 7.0 g/dL</span></span><span class=\"ds-q ds-br\"><span class=\"ds-ql\">General Surgery</span><b>D06 · 1 Oct</b></span><span class=\"ds-foot\"><svg viewBox=\"0 0 60 24\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><rect x=\"2\" width=\"2\" height=\"24\"/><rect x=\"6\" width=\"4\" height=\"24\"/><rect x=\"13\" width=\"1\" height=\"24\"/><rect x=\"17\" width=\"3\" height=\"24\"/><rect x=\"23\" width=\"2\" height=\"24\"/><rect x=\"28\" width=\"4\" height=\"24\"/><rect x=\"35\" width=\"1\" height=\"24\"/><rect x=\"39\" width=\"3\" height=\"24\"/><rect x=\"45\" width=\"2\" height=\"24\"/><rect x=\"50\" width=\"4\" height=\"24\"/><rect x=\"56\" width=\"2\" height=\"24\"/></svg><span class=\"ds-mono\">F030226005219</span></span><span class=\"ds-stamp\">Appropriate</span></button>",
+      "css": ".ds-tile { position: relative; display: grid; grid-template-columns: 1fr 1fr; grid-template-areas: 'band band' 'tl tr' 'bl br' 'foot foot'; width: 260px; padding: 0; border: 2px solid #121417; border-radius: 0; background: #fff; color: #121417; font: 15px/1.5 \"Segoe UI\", \"Helvetica Neue\", Arial, \"Noto Sans TC\", \"Microsoft JhengHei\", \"PingFang TC\", sans-serif; text-align: left; cursor: pointer; transition: box-shadow 150ms ease-out; } .ds-tile:hover { box-shadow: inset 0 0 0 2px #121417; } .ds-tile:focus-visible { outline: 3px solid #1f4fd1; outline-offset: 2px; } .ds-band { grid-area: band; padding: 4px 12px; background: #9f1820; color: #fff; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 2px solid #121417; } .ds-q { display: grid; gap: 2px; padding: 8px 12px; border-bottom: 1px solid #121417; font-size: 0.875rem; } .ds-tl { grid-area: tl; border-right: 1px solid #121417; } .ds-abo { grid-area: tr; font-size: 2.5rem; font-weight: 900; line-height: 1; text-align: center; align-content: center; } .ds-bl { grid-area: bl; border-right: 1px solid #121417; } .ds-br { grid-area: br; text-align: right; } .ds-ql { font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.04em; color: #3c434d; } .ds-qr { font-size: 0.75rem; font-weight: 600; color: #3c434d; } .ds-mono { font-family: ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, monospace; } .ds-bl .ds-mono { font-size: 1.5rem; line-height: 1.1; } .ds-foot { grid-area: foot; display: grid; gap: 2px; padding: 8px 12px; font-size: 0.75rem; } .ds-foot svg { width: 100%; height: 24px; fill: #121417; } .ds-stamp { position: absolute; right: 10px; bottom: 26px; rotate: -4deg; padding: 1px 8px; border: 2px solid #121417; background: #fff; font-size: 0.8125rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Component Label",
+    "overview": "Every surface is set like the label a blood bank prints on a component bag: white label stock, black ink, heavy rules dividing the area into quadrants, a product band across the top, and an identifier with a barcode at the foot. The interface behaves like a working analytics tool (rail navigation, tables, charts, standard controls), and the label grammar supplies its type, palette, density and one signature move. Every reviewable transfusion is drawn as a label tile.\n\nThe system is flat, square and high-contrast because it is projected in a lit seminar room and read on a laptop. Colour is spent on product identity only: red cells and plasma each own a band colour, and nothing else uses them for decoration. Status is expressed the way a printed label would express it, in ink: inverse tags, outline tags, struck text and an ink stamp.\n\nDensity is moderate. Numbers are tabular everywhere, monospace appears only where a value is a measurement or an identifier, and the page always says when data is synthetic.",
+    "keyCharacteristics": [
+      "White label stock on a cool bench-grey field, black ink rules at 2px (frames) and 1px (quadrants).",
+      "Product bands are the only saturated colour: red cells deep red, plasma straw.",
+      "Square corners everywhere; no radius.",
+      "Status in ink grammar, never in traffic-light colours.",
+      "Label tiles with quadrants, a drawn barcode and a mono unit ID are the signature component."
+    ],
+    "rules": [
+      {
+        "name": "The Product Owns the Colour Rule",
+        "body": "Red and straw mean red cells and plasma. Never use them for alerts, success, decoration or emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Status Rule",
+        "body": "States are printed marks: ink-inverse for blocking or held, an ink outline for warnings and approved, strike-through for resolved checks, an ink stamp for review decisions. No green, amber or red status colours.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "All numerals are tabular (`font-variant-numeric: tabular-nums`) so columns and deltas line up.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Value Rule",
+        "body": "Monospace is used only for lab values and identifiers, never as decoration.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Lift Rule",
+        "body": "Nothing floats. Hover and selection change rule weight or add an ink outline; no drop shadows and no translate lifts.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** frame every content region as a label: white stock, 2px ink frame, a band across the top when it belongs to a product.",
+      "**Do** keep red (#9f1820) and straw (#e0ac1f) for red cells and plasma only.",
+      "**Do** express status with ink: inverse tags, outline tags, strike-through and stamps.",
+      "**Do** set numbers in tabular figures and lab values and identifiers in monospace.",
+      "**Do** keep the blood group the heaviest lettering on any label tile.",
+      "**Do** label synthetic data on every screen."
+    ],
+    "donts": [
+      "**Don't** add border radius to any surface or control; the only round forms are chart data markers.",
+      "**Don't** use drop shadows or hover lifts; change rule weight instead.",
+      "**Don't** introduce green, amber or red status colours.",
+      "**Don't** place a stamp, badge or overlay over the blood group, lab value or unit ID.",
+      "**Don't** use monospace for headings, labels or decoration."
+    ]
+  }
+}

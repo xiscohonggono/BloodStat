@@ -1,0 +1,28 @@
+{
+  "name": "bloodstat",
+  "version": "1.0.0",
+  "description": "Jonathan and William's attempt at creating a dashboard for doctors, blood service committees, etc to measure their red cell and plasma transfusion habits against the AABB standards and the growing database  &amp; research in the case for plasma.",
+  "scripts": {
+    "gen": "node scripts/generate.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.scripts.json",
+    "demo": "npm run gen && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiscohonggono/BloodStat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/xiscohonggono/BloodStat/issues"
+  },
+  "homepage": "https://github.com/xiscohonggono/BloodStat#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

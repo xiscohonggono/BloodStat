@@ -1,0 +1,5 @@
+node_modules/
+demo/app.js
+demo/data.js
+.playwright-mcp/
+demo/more.js
