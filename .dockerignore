@@ -1,0 +1,8 @@
+node_modules
+.git
+.impeccable
+.playwright-mcp
+demo/app.js
+demo/more.js
+demo/data.js
+*.md

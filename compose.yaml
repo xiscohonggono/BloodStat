@@ -1,0 +1,8 @@
+services:
+  demo:
+    build: .
+    image: bloodstat-demo
+    ports:
+      # Bound to localhost only; open http://localhost:8765
+      - "127.0.0.1:8765:8080"
+    restart: unless-stopped
