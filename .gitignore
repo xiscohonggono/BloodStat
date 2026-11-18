@@ -3,3 +3,4 @@ demo/app.js
 demo/data.js
 .playwright-mcp/
 demo/more.js
+graphify-out/
