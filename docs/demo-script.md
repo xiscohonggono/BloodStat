@@ -89,6 +89,16 @@ Target length: about 7 minutes of demo inside a 15-minute pitch. Audience: one p
 
 "Retrospective, private, clinician-governed feedback, on Taiwan's own data standard, with plasma treated honestly as an evidence gap."
 
+### The ask (about 30 s)
+
+End on a request, not a summary. Pick one or two before the day and say them plainly:
+
+- "Is the transfusion profile worth proposing to MOHW? We'd value your view on what it would need."
+- "Could you introduce us to someone in the blood bank or the transfusion committee, so we can check these rules against real practice?"
+- "We'd like to keep building this inside the department. Would either of you supervise it, or know where it could continue?"
+
+Keep it about what the project needs next. Don't explain why you started it.
+
 ## Likely questions
 
 **Why retrospective instead of real-time alerts like Stanford?**
