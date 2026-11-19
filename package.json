@@ -13,8 +13,8 @@
     "url": "git+https://github.com/xiscohonggono/BloodStat.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Franciscus Jonathan Honggono and William Davis Tan",
+  "license": "MIT",
   "type": "module",
   "bugs": {
     "url": "https://github.com/xiscohonggono/BloodStat/issues"
