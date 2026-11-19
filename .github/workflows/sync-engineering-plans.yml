@@ -1,0 +1,57 @@
+name: Sync engineering plans to Notion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/plans/pending/*.md'
+      - 'docs/plans/pending/**/*.md'
+      - 'docs/plans/implemented/*.md'
+      - 'docs/plans/implemented/**/*.md'
+  workflow_dispatch:
+    inputs:
+      sync_scope:
+        description: 'Choose pending for the initial import, all plans for a full refresh, or changed for the current Git push.'
+        required: true
+        type: choice
+        default: pending
+        options:
+          - pending
+          - changed
+          - all
+      dry_run:
+        description: 'Preview matched plans without reading or changing Notion.'
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync plans
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATA_SOURCE_ID: f2806e2f-c52e-48e6-aa06-5385e5ec7e2a
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_BEFORE: ${{ github.event.before || '' }}
+          GITHUB_SHA: ${{ github.sha }}
+          INPUT_SYNC_SCOPE: ${{ inputs.sync_scope || 'changed' }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run || false }}
+        run: node scripts/sync-engineering-plans.mjs
